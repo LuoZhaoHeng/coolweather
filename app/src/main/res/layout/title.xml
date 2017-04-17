@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:andorid="http://schemas.android.com/apk/res/android"
+    andorid:layout_width="match_parent"
+    andorid:layout_height="?attr/actionBarSize" >
+
+    <Button
+        andorid:id="@+id/nav_button"
+        andorid:layout_width="30dp"
+        andorid:layout_height="30dp"
+        andorid:layout_marginLeft="10dp"
+        andorid:layout_alignParentLeft="true"
+        andorid:layout_centerVertical="true"
+        andorid:background="@drawable/ic_back"
+        />
+
+    <TextView
+        andorid:id="@+id/title_city"
+        andorid:layout_width="wrap_content"
+        andorid:layout_height="wrap_content"
+        andorid:layout_centerInParent="true"
+        andorid:textColor="#fff"
+        andorid:textSize="20sp"/>
+
+    <TextView
+        andorid:id="@+id/title_update_time"
+        andorid:layout_width="wrap_content"
+        andorid:layout_height="wrap_content"
+        andorid:layout_marginRight="10dp"
+        andorid:layout_alignParentRight="true"
+        andorid:layout_centerVertical="true"
+        andorid:textColor="#fff"
+        andorid:textSize="16sp" />
+
+
+
+</RelativeLayout>
